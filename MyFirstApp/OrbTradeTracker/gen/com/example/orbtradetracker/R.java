@@ -29,17 +29,34 @@ public final class R {
         public static final int scouring=0x7f02000f;
     }
     public static final class id {
-        public static final int Total=0x7f070009;
-        public static final int alchButtonAdd=0x7f070004;
-        public static final int alchButtonSub=0x7f070007;
-        public static final int alchTextView=0x7f070005;
-        public static final int chaosButtonAdd=0x7f070003;
-        public static final int chaosButtonSub=0x7f070006;
-        public static final int chaosTextView=0x7f070008;
-        public static final int imageView1=0x7f070000;
-        public static final int imageView2=0x7f070001;
-        public static final int imageView3=0x7f070002;
-        public static final int menu_settings=0x7f07000a;
+        public static final int ScrlView=0x7f070000;
+        public static final int alchButtonAdd=0x7f070014;
+        public static final int alchButtonSub=0x7f070015;
+        public static final int alchTextView=0x7f070013;
+        public static final int alchTotal=0x7f07001a;
+        public static final int alterButtonAdd=0x7f070008;
+        public static final int alterButtonSub=0x7f070009;
+        public static final int alterTextView=0x7f070007;
+        public static final int chanceButtonAdd=0x7f070010;
+        public static final int chanceButtonSub=0x7f070011;
+        public static final int chanceTextView=0x7f07000f;
+        public static final int chaosButtonAdd=0x7f070018;
+        public static final int chaosButtonSub=0x7f070019;
+        public static final int chaosTextView=0x7f070017;
+        public static final int chromButtonAdd=0x7f070004;
+        public static final int chromButtonSub=0x7f070005;
+        public static final int chromTextView=0x7f070003;
+        public static final int imageAlch=0x7f070012;
+        public static final int imageAlter=0x7f070006;
+        public static final int imageChance=0x7f07000e;
+        public static final int imageChrom=0x7f070002;
+        public static final int imageJew=0x7f07000a;
+        public static final int imageVChaos=0x7f070016;
+        public static final int jewButtonAdd=0x7f07000c;
+        public static final int jewButtonSub=0x7f07000d;
+        public static final int jewTextView=0x7f07000b;
+        public static final int layoutForScroll=0x7f070001;
+        public static final int menu_settings=0x7f07001b;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

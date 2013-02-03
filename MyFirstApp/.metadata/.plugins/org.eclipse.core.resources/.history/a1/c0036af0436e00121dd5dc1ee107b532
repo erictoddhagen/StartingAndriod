@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent linear layout with vertical orientation -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+<ScrollView android:id="@+id/ScrlView" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+  <LinearLayout android:id="@+id/layoutForScroll" android:orientation="vertical"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"        
+    >
+ 
+ <LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+               
+      <ImageView
+        android:id="@+id/imageChrom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/chromatic" />
+   
+    <TextView
+        android:id="@+id/chromTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+    <Button
+        android:id="@+id/chromButtonAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+" />
+    
+    <Button
+        android:id="@+id/chromButtonSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-" />
+</LinearLayout>
+
+  <LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+               
+      <ImageView
+        android:id="@+id/imageAlter"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/alteration" />
+   
+    <TextView
+        android:id="@+id/alterTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+    <Button
+        android:id="@+id/alterButtonAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+" />
+    
+    <Button
+        android:id="@+id/alterButtonSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-" />
+</LinearLayout>
+<!-- 
+   <LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+               
+      <ImageView
+        android:id="@+id/imageJew"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/jewellers" />
+   
+    <TextView
+        android:id="@+id/jewTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+    <Button
+        android:id="@+id/jewButtonAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+" />
+    
+    <Button
+        android:id="@+id/jewButtonSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-" />
+</LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+               
+      <ImageView
+        android:id="@+id/imageChance"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/chance" />
+   
+    <TextView
+        android:id="@+id/chanceTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+    <Button
+        android:id="@+id/chanceButtonAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+" />
+    
+    <Button
+        android:id="@+id/chanceButtonSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-" />
+</LinearLayout>
+ -->
+ <LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+               
+      <ImageView
+        android:id="@+id/imageAlch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/alchemy" />
+   
+    <TextView
+        android:id="@+id/alchTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+    <Button
+        android:id="@+id/alchButtonAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+" />
+    
+    <Button
+        android:id="@+id/alchButtonSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-" />
+</LinearLayout>
+
+ <LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+    
+      <ImageView
+        android:id="@+id/imageVChaos"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/chaos" />
+     
+      <TextView
+        android:id="@+id/chaosTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+      
+    <Button
+        android:id="@+id/chaosButtonAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="+" />
+    
+    <Button
+        android:id="@+id/chaosButtonSub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="-" />   
+</LinearLayout>
+
+<LinearLayout android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_marginTop="15dip">
+               
+      <ImageView
+        android:id="@+id/imageAlch"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="15dip" 
+        android:layout_weight="1" 
+        android:gravity="center"
+        android:src="@drawable/alchemy" />
+   
+    <TextView
+        android:id="@+id/alchTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="0.0"
+        android:padding="15dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    		</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>    

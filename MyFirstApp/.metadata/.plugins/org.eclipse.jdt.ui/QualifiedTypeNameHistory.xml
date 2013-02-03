@@ -2,5 +2,8 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="android.text.Editable"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.widget.Gallery"/>
+<fullyQualifiedTypeName name="com.example.orbtradetracker.R.drawable"/>
 <fullyQualifiedTypeName name="com.example.orbtradetracker.R.id"/>
+<fullyQualifiedTypeName name="android.app.ActionBar.LayoutParams"/>
 </qualifiedTypeNameHistroy>
