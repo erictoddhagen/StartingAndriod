@@ -1,0 +1,42 @@
+package com.example.orbtradetracker;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.text.Editable;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import java.lang.Double;
+
+public class MainActivity extends Activity implements OnClickListener {
+	
+	private EditText txtresult;
+    private Button btnadd;
+    /** Called when the activity is first created. */
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        txtresult=(EditText) findViewById(R.id.textresult);
+        
+        btnadd = (Button) findViewById(R.id.buttonadd);
+        btnsubtract = (Button) findViewById(R.id.buttonsubtract);
+        btnadd.setOnClickListener(this);
+        
+    }
+    public void onClick(View v) {
+        //method handling button click	
+    		String text = txtresult.getText().toString();
+    		double result = Double.parseDouble(text.toString());
+    		if (v.getId()==R.id.buttonadd){
+    			  result = result + 1.0;
+    	    	  txtresult.setText(Double.toString(result));
+    		}
+    		if (v.getId()==R.id.buttonsubtract){
+  			  result = result - 1.0;
+  	    	  txtresult.setText(Double.toString(result));
+  		   }
+    	  
+    }
+}

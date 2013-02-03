@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/alchemy" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/alchemy" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:src="@drawable/chaos" />
+
+    <Button
+        android:id="@+id/chaosButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alchButtonAdd"
+        android:layout_below="@+id/alchButtonAdd"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/alchTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/alchButtonAdd"
+        android:layout_alignBottom="@+id/alchButtonAdd"
+        android:layout_marginLeft="37dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/chaosButtonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/chaosButtonAdd"
+        android:layout_alignBottom="@+id/chaosButtonAdd"
+        android:layout_toRightOf="@+id/chaosButtonAdd"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/alchButtonSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chaosButtonAdd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/chaosTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alchTextView"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginTop="14dp"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/alchButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_toLeftOf="@+id/alchButtonSub"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/chaosTextView"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="16dp"
+        android:text="0.0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
